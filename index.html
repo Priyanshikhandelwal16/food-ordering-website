@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasteat - The Best restaurants in your Home</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+ 
+</head>
+<body>
+    <main>
+        <div class="home-section">
+            <header>
+                <img src="logo.svg" alt="" class="logo">
+                <div class="nav-links">
+                    <a href="#hero">Home</a>
+                    <a href="#hero">About Us</a>
+                    <a href="#city">Restaurants</a>
+                    <a href="contact">Contact Us</a>
+                </div>
+                <div class="order-btn">
+                   <i class="ri-shopping-bag-fill"></i>
+                <button>Order Now</button>
+                </div>
+                <div class="sidebar" id="sidebar">
+  <div class="close-btn" onclick="closeSidebar()">&times;</div>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#city">Restaurants</a></li>
+    <li><a href="#hero">About us</a></li>
+    <li><a href="#contact">Contact us</a></li>
+  </ul>
+</div>
+
+<div class="hamburger" onclick="openSidebar()">
+  <i class="ri-menu-line"></i>
+</div>
+            </header>
+            <div class="hero-section" id="hero">
+                <div class="left">
+                  <h1>The Best Restaurants In Your Home</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                  <button>Order Now</button>
+                </div>
+
+                <div class="right">
+                      <img src="hero-shape-2.svg" alt="" class="shape1">
+                    <img src="hero-banner.png" alt="" class="hero-img">
+                    <img src="hero-shape-1.svg" alt="" class="shape2">
+                  </div>
+                </div>
+            </div>
+
+            <div class="work-section" id="work">
+                <h1>How it Works</h1>
+                <p>Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in <br>metus vulputate eu scelerisque felis.</p>
+              <div class="card-wrapper">
+                  <div class="card">
+                    <img src="instructuion-1.png" alt="">
+                    <h1>01<span>Select Restaurant</span></h1>
+                    <p>Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.</p>
+                </div>
+                <div class="card">
+                    <img src="instructuion-2.png" alt="">
+                    <h1>02<span>Select menu</span></h1>
+                    <p>Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Odio ut sem nulla pharetra diam sit amet.</p>
+                </div>
+                <div class="card">
+                    <img src="instructuion-3.png" alt="">
+                    <h1>03<span>Wait for delivery</span></h1>
+                    <p>Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A scelerisque purus semper eget. Tincidunt arcu non.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="city-section" id="city">
+                <div class="card-info">
+                  <div class="heading-card">
+                    <h1>12 Best Restaurants in Your City</h1>
+                    <p>Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in metus vulputate.</p>
+                  </div>
+                  <div class="cafe-card">
+                        <img src="rest-1.jpg" alt="">
+                        <h2>Kennington Lane Cafe</h2>
+                        <div class="stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-line"></i>
+                        </div>
+                        <div class="btn">
+                          <button>American</button>
+                          <button>Steakhouse</button>
+                        </div>
+                        <p>Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.</p>
+                  </div>
+
+                  <div class="cafe-card">
+                        <img src="rest-2.jpg" alt="">
+                        <h2>The Wilmington</h2>
+                        <div class="stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-line"></i>
+                        </div>
+                        <div class="btn">
+                          <button>American</button>
+                          <button>Steakhouse</button>
+                        </div>
+                        <p>Vulputate enim nulla aliquet porttitor lacus luctus. Suscipit adipiscing bibendum est ultricies integer. Sed adipiscing diam donec adipiscing tristique.</p>
+                  </div>
+
+                  <div class="cafe-card">
+                        <img src="rest-3.jpg" alt="">
+                        <h2>Kings Arms</h2>
+                        <div class="stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                           <i class="ri-star-line"></i>
+                        </div>
+                        <div class="btn">
+                          <button>American</button>
+                          <button>Steakhouse</button>
+                        </div>
+                        <p>Tortor at risus viverra adipiscing at in tellus. Cras semper auctor neque vitae tempus. Dui accumsan sit amet nulla facilisi. Sed adipiscing diam donec adipiscing tristique</p>
+                  </div>
+                </div>
+                <div class="see-all">
+                    <button>See all <i class="ri-arrow-right-line"></i></button>
+                </div>
+              
+            </div>
+
+            <div class="food-section" id="food">
+              <div class="left">
+                <img src="cta-banner.png" alt="">
+              </div>
+
+              <div class="right">
+                <h1>Food from your favorite restaurants to your table</h1>
+                <p>Pretium lectus quam id leo in vitae turpis massa sed. Lorem donec massa sapien faucibus et molestie. Vitae elementum curabitur vitae nunc.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+
+            <div class="service-section" id="service">
+  <div class="service-info">
+    <h1>Service shows <br>good taste.</h1>
+  </div>
+
+  <div class="service-card">
+    <h1>976</h1>
+    <p>Satisfied <br>Customer</p>
+  </div>
+
+  <div class="service-card">
+    <h1>12</h1>
+    <p>Best <br>Restaurants</p>
+  </div>
+
+  <div class="service-card">
+    <h1>1K+</h1>
+    <p>Food <br>Delivered</p>
+  </div>
+</div>
+
+
+            <div class="customer-section" id="customer">
+              <div class="left">
+                <h1>What customers say about us</h1>
+                <p>"Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Mauris a diam maecenas sed enim. Egestas diam in arcu cursus euismod quis. Quam quisque id diam vel".</p>
+
+                <div class="customer-about">
+                  <img src="testi-avatar.jpg" alt="">
+                  <div class="customer-info">
+                       <h3>Thomas Adamson</h3>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                </div>
+                  </div>
+                 
+              </div>
+
+              <div class="right">
+                <img src="testimonial-banner.png" alt="">
+              </div>
+            </div>
+
+            <div class="Partnership-section" id="partner">
+              <h1>Want to Join Partnership?</h1>
+              <div class="travel-card">
+                <div class="tcard">
+                  <img src="partner-1.jpg" alt="">
+                  <h2>Join Courier</h2>
+                  <button>Learn More <i class="ri-arrow-right-line"></i></button>
+                </div>
+                <div class="tcard">
+                  <img src="partner-2.jpg" alt="">
+                  <h2>Join Merchant</h2>
+                  <button>Learn More <i class="ri-arrow-right-line"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="subscribe-section" id="Subscribe">
+              <div class="left">
+                <img src="newsletter-banenr.png" alt="">
+              </div>
+
+              <div class="right">
+                <h1>Get the menu of your favorite restaurants every day</h1>
+                <form action="">
+                  <input type="email" name="" id="" placeholder="Enter your mail">
+                </form>
+                <button><i class="ri-notification-4-line"></i>Subscribe</button>
+              </div>
+            </div>
+
+            <footer id="contact">
+            <div class="footer-top">
+                <div class="left">
+                   <img src="logo-footer.svg" alt="">
+                   <h1>The Best Restaurants in Your Home</h1>
+                   <p>Vitae congue mauris rhoncus aenean. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Tempus egestas sed sed risus pretium quam.</p>
+              </div>
+
+              <div class="middle">
+                  <h2>Menu</h2>
+                  <a href="Home">Home <i class="ri-arrow-right-line"></i></a>
+                  <a href="About Us">About Us<i class="ri-arrow-right-line"></i></a>
+                  <a href="Restaurants">Restaurants<i class="ri-arrow-right-line"></i></a>
+                  <a href="Contacts">Contacts<i class="ri-arrow-right-line"></i></a>
+              </div>
+
+              <div class="right">
+                <h2>Contacts</h2>
+                 <p><i class="ri-map-pin-fill"></i> 1717 Harrison St, San Francisco, CA 94103,<br>United States</p>
+
+  <hr>
+
+  <div class="mail">
+    <p><i class="ri-mail-fill"></i>quickeat@mail.net</p>
+  <p><i class="ri-phone-fill"></i>+1 234 456 78 90</p>
+  </div>
+
+  <div class="social-icons">
+    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+    <a href="#"><i class="ri-instagram-fill"></i></a>
+    <a href="#"><i class="ri-twitter-fill"></i></a>
+  </div>
+              </div>
+            </div>
+
+              <div class="footer-bottom">
+                <hr>
+                <p>Copyright 2025 Priyanshi Khandelwal. All rights reserved.</p>
+              </div>
+            </footer>
+    </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
