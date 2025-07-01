@@ -308,7 +308,8 @@ window.addEventListener("load", function () {
       scrollTrigger: {
         trigger: selector,
         start: "top 85%",
-        markers: true,
+        markers: false,
+        once: true,
       },
       opacity: 0,
       duration: 1,
@@ -355,4 +356,21 @@ window.addEventListener("load", function () {
   // Footer section
   fadeInFrom("footer .footer-top", "y", 50);
   fadeInFrom("footer .footer-bottom", "y", 30);
+
+  gsap.utils.toArray(".card-wrapper .card").forEach((card) => {
+  fadeInFrom(card, "y", 50);
+});
+
+gsap.utils.toArray(".service-card").forEach((card) => {
+  fadeInFrom(card, "y", 50);
+});
+
+gsap.utils.toArray(".cafe-card").forEach((card) => {
+  fadeInFrom(card, "y", 50);
+});
+
+gsap.utils.toArray(".travel-card").forEach((card) => {
+  fadeInFrom(card, "y", 50);
+});
+
 });
