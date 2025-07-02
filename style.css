@@ -8,14 +8,11 @@
   width: 100%;
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
-  /* overflow-x: hidden; REMOVE from here */
 }
 
-/* main, .home-section, .hero-section, .city-section, .Partnership-section {
-  overflow-x: hidden;
-} */
-
+body{
+   overflow-x: hidden;
+}
 
 :root {
 

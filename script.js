@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
         ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: "top bottom",
+         start: "top 100%", // or even "top 95%" for mobile
           toggleActions: "play none none none",
           once: true,
           invalidateOnRefresh: true,
@@ -130,6 +130,7 @@ window.addEventListener("load", function () {
       });
     }
   }, 1000);
+
 });
 
 // Hamburger toggle
@@ -139,3 +140,4 @@ function openSidebar() {
 function closeSidebar() {
   document.querySelector('.sidebar').style.right = '-300px';
 }
+
