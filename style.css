@@ -1259,9 +1259,8 @@ footer .right i {
 
 .service-section{
   padding: 20px;
-  gap: 40px;
   margin-top: 80px;
-  min-height: 40vh;
+  min-height: 80vh;
 }
 
 .service-section .service-info{
@@ -1270,7 +1269,7 @@ footer .right i {
 }
 
 .service-section .service-card{
-  gap: 5px;
+  gap: 5px !important;
   padding: 25px 90px;
    display: flex;
   flex-direction: column;
@@ -1528,12 +1527,5 @@ footer .right p {
   color: #D4D4D4;
 }
 
-/* Ensure all major sections are visible and scrollable for ScrollTrigger */
-section, .work-section, .city-section, .food-section, .service-section, .customer-section, .Partnership-section, .subscribe-section, footer {
-  display: block;
-  min-height: 50vh;
-  width: 100%;
-  overflow: visible !important;
-  position: relative;
-}
+
 }
